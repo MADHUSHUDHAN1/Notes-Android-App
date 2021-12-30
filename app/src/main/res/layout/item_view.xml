@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundercorner_edit_text"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleOutput"
+        android:textSize="28dp"
+        android:text="Title"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionOutput"
+        android:layout_below="@id/titleOutput"
+        android:lines="2"
+        android:text="This is my description of notes"
+        android:textColor="#373535"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeOutput"
+        android:layout_below="@id/descriptionOutput"
+        android:text="Jan 21 2021"
+        android:textColor="#7C7A7A"/>
+
+
+</RelativeLayout>
